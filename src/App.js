@@ -3,6 +3,10 @@ import "./App.css"
 import React from "react"
 import CardList from "./components/card-list/card-list.component"
 import { SearchBox } from "./components/search-box/search-box.component"
+
+// 1) Decide on Components
+// 2) Decide the State and where it lives
+// 3) What changes when State changes
 class App extends React.Component {
   constructor() {
     super()
